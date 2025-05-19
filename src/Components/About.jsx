@@ -1,5 +1,5 @@
 import "./About.scss";
-import Shop from "../assets/shop.png";
+import Shop from "../assets/Shop.png";
 import { useTranslation } from "react-i18next";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
