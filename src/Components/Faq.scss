@@ -1,0 +1,35 @@
+.faq{
+
+  input{
+    width:min(600px,100%);
+  }
+
+
+  .buttons{
+    margin-top: 1rem;
+    display:flex;
+    gap:.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button{
+      border-radius: .6rem;;
+    }
+  }
+
+  
+}
+
+.faqs{
+  margin-top: 1rem;
+  display:flex;
+  flex-direction: column;
+  gap:.8rem;
+  width:min(700px,100%);
+  margin: 1rem auto 0;
+
+  .accordian p{
+    font-weight: 600;
+    line-height: 1.6;
+  }
+}

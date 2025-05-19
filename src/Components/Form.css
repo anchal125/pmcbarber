@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  width:100%;
+
+  label{
+    font-weight: bold;
+  }
+
+  input,textarea{
+   width:100%;
+  }
+}
+
+
+
+select{
+  background: var(--sbackground);
+  padding:.4rem;
+  color:var(--pcolor);
+
+  option{
+    color:black;
+  }
+}
+
+
+
+button {
+  padding: .4rem;
+  align-self:start;
+}

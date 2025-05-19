@@ -1,0 +1,29 @@
+.contact{
+  .sections{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.3rem;
+    line-height: 1.6;
+  }
+
+  .left{
+    flex:1;
+    min-width: 250px;
+    >div:not(:last-child){
+      margin-bottom: 2rem;
+    }
+    .box{
+      display: flex;
+      gap:.7rem;
+      align-items: center;
+    }
+
+
+  }
+
+  .right{
+    flex:2;
+    min-width: 300px;
+
+  }
+}

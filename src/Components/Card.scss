@@ -1,0 +1,30 @@
+.service-card{
+  position: relative;
+  overflow: hidden;
+
+  &::after{
+    content:"";
+    position: absolute;
+    width:4px;
+    height:100%;
+    left:0;
+    top:0;
+    transition:all .4s;
+    background: var(--scolor);
+  }
+
+  &:hover{
+    border:1px solid var(--scolor);
+    transform: translateY(-.8rem);
+
+    h3{
+      color:var(--scolor);
+    }
+  }
+
+  &:hover::after{
+    width: 100%;
+    height:4px;
+
+  }
+}

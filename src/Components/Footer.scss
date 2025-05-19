@@ -1,0 +1,30 @@
+.footer{
+  display:flex;
+  justify-content: space-between;
+  padding:1.4rem 6rem;
+  position: relative;
+  color:grey;
+  column-gap:3.2rem;
+  flex-wrap: wrap;
+   
+  &::before{
+    content:"";
+    position:absolute;
+    height:.5px;
+    width:calc(100% - 12rem);
+    top:0;
+    left:6rem;
+    background: grey;
+  }
+
+  .links{
+    display:flex;
+    gap:.5rem;
+  }
+}
+
+@media screen and (max-width:"450px"){
+  .footer{
+    justify-content: space-evenly !important;
+  }
+}

@@ -1,0 +1,32 @@
+.imageCard{
+  height:250px;
+  border-radius: .5rem;
+  overflow: hidden;
+  cursor:pointer;
+  position:relative;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &::after{
+    content:"view 🔎";
+    font-size: .8rem;
+    position:absolute;
+    background: rgba(23, 23, 23, 0.8);
+    bottom:4px;
+    left:50%;
+    padding:.3rem .7rem;
+    transform: translateX(-50%);
+    opacity:0;
+    border-radius: .9rem;
+    color:white;
+  }
+
+  &:hover{
+    border:1.7px solid var(--scolor);
+    transform: scale(1.05);
+  }
+
+  &:hover::after{
+    opacity:1;
+  }
+}
